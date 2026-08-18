@@ -1,9 +1,7 @@
-import { Button } from "@workspace/ui/components/button"
-import { add } from "@workspace/math/add"
-
+import { useQuery} from "convex/react"
 
 export default function Page() {
   return (
-    <p>{add(2, 5)}</p>
+    <p>App/Web</p>
   )
 }
